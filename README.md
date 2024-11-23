@@ -1,4 +1,3 @@
-
 # Liverpool Prueba Técnica
 
 Este proyecto es una prueba técnica realizada para Liverpool. Contiene tres pantallas: Productos, Detalle y un Formulario Dinámico. Se utilizó Material-UI, SCSS, React, PropTypes y Redux para su desarrollo.
@@ -22,16 +21,16 @@ Este proyecto es una prueba técnica realizada para Liverpool. Contiene tres pan
 
 Primero, clona el repositorio:
 
-   ```bash
-   git clone <URL_DEL_REPOSITORIO>
-   cd liverpool-prueba-tecnica
-   ```
+```bash
+git clone https://github.com/MarcosSeis/liverpool_prueba.git
+cd liverpool-prueba-tecnica
+```
 
 Luego, instala las dependencias:
 
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+```
 
 ## Ejecución en Desarrollo
 
