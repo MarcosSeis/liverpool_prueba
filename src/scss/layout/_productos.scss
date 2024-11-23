@@ -1,0 +1,28 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+.productos {
+    padding-top: 3rem;
+    @include m.grid();
+    gap: 2rem; 
+    @include m.telefono {
+        @include m.grid(2); 
+    }
+
+    @include m.tablet {
+        @include m.grid(4); 
+    }
+
+    @include m.desktop {
+        @include m.grid(6); 
+    }
+}
+
+.producto {
+    background-color: v.$blanco; 
+    border: 1px solid v.$negro;
+    padding: 1rem;
+    text-align: center; 
+    border-radius: 0.5rem; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}

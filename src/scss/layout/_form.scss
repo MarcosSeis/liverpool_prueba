@@ -1,0 +1,61 @@
+$form-background: #f9f9f9;
+$form-padding: 20px;
+$form-border-radius: 8px;
+$form-width: 100%;
+$input-padding: 12px;
+$input-border-radius: 4px;
+$button-background: #1976d2;
+$button-hover-background: #1565c0;
+$error-color: #d32f2f;
+$alert-background: #fff3e0;
+$alert-border-color: #ff9800;
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  background-color: $form-background;
+  padding: $form-padding;
+  border-radius: $form-border-radius;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+.form-container .MuiTextField-root {
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.form-container .MuiButton-root {
+  padding: 12px 24px;
+  background-color: $button-background;
+  color: #fff;
+  border-radius: $input-border-radius;
+  &:hover {
+    background-color: $button-hover-background;
+  }
+}
+
+.form-container .MuiAlert-root {
+  margin-bottom: 20px;
+  background-color: $alert-background;
+  border: 1px solid $alert-border-color;
+}
+
+.form-container .MuiTypography-root {
+  font-size: 14px;
+  color: $error-color;
+  margin-top: 10px;
+}
+
+.form-container .MuiTextField-root .MuiFormHelperText-root {
+  font-size: 12px;
+  color: $error-color;
+}
+
+.form-container .MuiAlert-root {
+  font-size: 14px;
+  color: #9c27b0;
+}
